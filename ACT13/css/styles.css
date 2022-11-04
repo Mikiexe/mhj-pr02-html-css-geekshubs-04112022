@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin: auto;
+  text-align: center;
+}
+
+table,
+tr,
+td,
+th {
+  font-size: 1.1em;
+  width: 99vw;
+  height: 5vh;
+  margin: auto;
+  text-align: center;
+  border: 1.5px solid grey;
+  box-shadow: 2px 2px grey;
+}
+
+#greenText {
+  background-color: lightgreen;
+}
+#blueSky {
+  text-align: left;
+  background-color: skyblue;
+}
+
+#violetColor {
+  text-align: right;
+  background-color: violet;
+}
+
+#redText {
+  color: red;
+}
