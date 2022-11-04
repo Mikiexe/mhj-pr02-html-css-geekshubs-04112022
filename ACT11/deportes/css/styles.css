@@ -1,0 +1,34 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+#table2 {
+  box-shadow: 1px black;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1.5px solid rgb(31, 151, 231);
+  border-collapse: collapse;
+}
+
+table {
+  box-shadow: 2em;
+  font-size: 0.5em;
+  box-shadow: 2px 2px grey;
+  outline: solid 0.1em rgb(31, 151, 231);
+  outline-offset: 2px;
+}
+
+th {
+  background-color: rgb(0, 26, 51);
+  color: rgb(200, 255, 200);
+}
+.oddRow td {
+  background-color: rgb(200, 255, 200);
+}
+
+.evenRow td {
+  background-color: rgb(177, 204, 177);
+}
