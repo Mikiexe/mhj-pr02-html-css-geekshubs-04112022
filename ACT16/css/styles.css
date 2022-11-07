@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table,
+td,
+tr,
+th {
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+table {
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-top: 4px solid grey;
+  border-left: 4px solid grey;
+
+  background-color: blanchedalmond;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../assets/output-onlinepngtools.png);
+
+  text-align: center;
+
+  width: 70vw;
+  height: 40vh;
+  margin-top: 20vh;
+}
+#tablaGeneral {
+  margin: auto;
+}
+
+#titulo {
+  background-color: rgb(67, 124, 67);
+}
+
+.datos {
+  font-weight: 700;
+}
+.columnas {
+  background-color: rgb(251, 180, 122);
+}
+
+.clasificacionPerros {
+  background-color: rgb(255, 255, 137);
+}
