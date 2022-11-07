@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+table,
+tr,
+th,
+td {
+  margin: auto;
+  border: 1px solid rgb(144, 144, 24);
+}
+
+table {
+  width: 35vw;
+  position: absolute;
+  background-color: rgb(109, 109, 24);
+  box-shadow: 2px 2px black;
+}
+
+#header {
+  background-color: white;
+}
+
+.celdas {
+  background-color: rgb(182, 182, 38);
+  text-align: center;
+}
