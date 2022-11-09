@@ -1,0 +1,162 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: grid;
+
+  width: 90vw;
+  height: 100%;
+
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  row-gap: 5px;
+
+  justify-items: center;
+  align-items: center;
+  background-image: url(../assets/ac.jpg);
+}
+
+/* MANTEL DIVS */
+.mantelElement {
+  width: 13vw;
+  height: 25vh;
+}
+
+#mantel1 {
+  border: 2px solid black;
+  line-height: 90px;
+  text-align: center;
+  background-image: url(../assets/back_mantel.jpg);
+}
+
+#mantel2 {
+  display: flex;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+}
+
+#mantel3 {
+  border: 2px solid black;
+  line-height: 90px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/back_mantel.jpg);
+}
+
+#mantel4 {
+  border: 2px solid black;
+  line-height: 90px;
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  background-size: 150px 150px;
+  background-image: url(../assets/back_mantel.jpg);
+}
+
+#miniElementB {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+
+  background-position: center;
+  background-image: url(../assets/back_mantel.jpg);
+}
+
+/* PORTRAIT DIVS */
+.portraitElement {
+  width: 13vw;
+  height: 25vh;
+  background-color: white;
+}
+
+#portrait1 {
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+  background-image: url(../assets/dh.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+#portrait2 {
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+
+  background-position: center;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/dh.jpg);
+}
+
+#portrait3 {
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+
+  background-image: url(../assets/dh_2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#portrait4 {
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+
+  background-image: url(../assets/dh_3.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* FADE DIVS */
+.fadeElement {
+  width: 13vw;
+  height: 25vh;
+}
+#fade1 {
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+  background-image: linear-gradient(to right, rgb(184, 184, 55), rgb(93, 81, 13));
+}
+#fade2 {
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+
+  background-image: linear-gradient(
+    to top,
+    rgb(175, 120, 56) 10%,
+    crimson,
+    crimson 20%,
+    rgb(212, 88, 113) 75%,
+    white
+  );
+}
+#fade3 {
+  border: 2px solid black;
+  text-align: center;
+  line-height: 90px;
+
+  background-image: linear-gradient(to top, rgb(108, 170, 108) 60%, white);
+}
+#fade4 {
+  text-align: center;
+  line-height: 90px;
+  border: 2px solid black;
+  background-image: linear-gradient(to top, rgb(108, 170, 108) 10%, rgb(108, 170, 108, 0.2));
+}
